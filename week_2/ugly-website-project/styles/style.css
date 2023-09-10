@@ -1,0 +1,33 @@
+html {
+  background-image: linear-gradient(to bottom right, #002D72, #FF5910);
+  background-attachment: fixed; /*edit*/
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Tahoma';
+  font-size: 36px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.mets-logo {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.intro {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Verdana';
+}
