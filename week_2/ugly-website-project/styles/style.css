@@ -1,7 +1,7 @@
 html {
-  /* background-image: linear-gradient(to bottom right, #002D72, #FF5910); */
-  background-attachment: fixed; /*edit*/
-  background-color: peachpuff;
+  background-image: linear-gradient(to bottom right, #002D72, #FF5910) !important;
+  background-attachment: fixed !important; /*edit*/
+  /* background-color: peachpuff; */
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   /* background-image: url("/assets/img/baseballs.jpg"); */
   /* background-attachment: fixed; */
   /* background-repeat: repeat; */
-  background-size: 1000px;
+  background-size: 1000px !important;
   /* width: 300px;
   height: 300px; */
 
@@ -17,10 +17,10 @@ body {
 }
 
 h1 {
-  color: white;
-  font-family: 'Tahoma';
-  font-size: 55px;
-  background-color: #FF5910;
+  color: white !important;
+  font-family: 'Tahoma' !important;
+  font-size: 55px !important;
+  background-color: #FF5910 !important;
 }
 
 @keyframes fadeIn { 
@@ -28,16 +28,16 @@ h1 {
 }
 
 .animate-flicker {
-    animation: fadeIn 1s infinite alternate;
+    animation: fadeIn 1s infinite alternate !important;
 }
 
 .flex-container {
-  display: flex;
-  align-items:center;
+  display: flex !important;
+  align-items:center !important;
 }
 
 .mets-logo {
-  animation: rotation 2s infinite linear;
+  animation: rotation 2s infinite linear !important;
 }
 
 @keyframes rotation {
@@ -50,92 +50,92 @@ h1 {
 }
 
 .fade_rule {
-  height: 10px;
-  background-color: #E6E6E6;
-  width: 40.0em;
-  margin: 0 auto;
+  height: 10px !important;
+  background-color: #E6E6E6 !important;
+  width: 40.0em !important;
+  margin: 0 auto !important;
   /* background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
   background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
   background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
   background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
   background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%); */
-  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.25, #002D72), color-stop(0.75, #FF5910), color-stop(0.98, white) );
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.25, #002D72), color-stop(0.75, #FF5910), color-stop(0.98, white) ) !important;
 }
 
 
 .intro {
-  color: #ffffff;
-  background-color: #002D72;
-  font-size: 18px;
-  font-family: 'Verdana';
+  color: #ffffff !important;
+  background-color: #002D72 !important;
+  font-size: 18px !important;
+  font-family: 'Verdana' !important;
 }
 
 .column {
-  float: left;
-  width: 50%;
-  margin-right:0px;
+  float: left !important;
+  width: 50% !important;
+  margin-right:0px !important;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+  content: "" !important;
+  display: table !important;
+  clear: both !important;
 }
 
 iframe {
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 .button-row {
-  align-items: center;
+  align-items: center !important;
 }
 
 button {
-  border: none;
-  padding: 10px 2px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  text-transform:uppercase;
+  border: none !important;
+  padding: 10px 2px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  text-transform:uppercase !important;
 }
 
 .tickets-button {
-  background-color: #FF5910;
-  color:#002D72;
-  font-weight:600;
-  border: 5px solid lime;
+  background-color: #FF5910!important;
+  color:#002D72 !important;
+  font-weight:600 !important;
+  border: 5px solid lime !important;
 }
 
 .stats-button {
-  background-color: #002D72;
-  color: #FF5910;
-  font-weight:600;
-  border: 5px solid lime;
+  background-color: #002D72 !important;
+  color: #FF5910 !important;
+  font-weight:600 !important;
+  border: 5px solid lime !important;
 }
 
 .schedule-button {
-  background-color: #FF5910;
-  color:#002D72;
-  font-weight:600;
-  border: 5px solid lime;
+  background-color: #FF5910 !important;
+  color:#002D72 !important;
+  font-weight:600 !important;
+  border: 5px solid lime !important;
 }
 
 h3 {
 
-  font-family: 'Tahoma';
-  font-size: 25px;
+  font-family: 'Tahoma' !important;
+  font-size: 25px !important;
 
 }
 
 .worst-seasons{
-  margin-top:20px;
+  margin-top:20px !important;
   /* background-color: rgb(39, 39, 39); */
-  color: black;
-  font-size: 18px;
-  font-family: 'Verdana';
+  color: white !important;
+  font-size: 18px !important;
+  font-family: 'Verdana' !important;
 }
 
