@@ -1,19 +1,11 @@
 html {
   background-image: linear-gradient(to bottom right, #002D72, #FF5910) !important;
   background-attachment: fixed !important; /*edit*/
-  /* background-color: peachpuff; */
 }
 
 body {
   color: black;
-  /* background-image: url("/assets/img/baseballs.jpg"); */
-  /* background-attachment: fixed; */
-  /* background-repeat: repeat; */
   background-size: 1000px !important;
-  /* width: 300px;
-  height: 300px; */
-
-
 }
 
 h1 {
@@ -54,11 +46,6 @@ h1 {
   background-color: #E6E6E6 !important;
   width: 40.0em !important;
   margin: 0 auto !important;
-  /* background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-  background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-  background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-  background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
-  background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%); */
   background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.25, #002D72), color-stop(0.75, #FF5910), color-stop(0.98, white) ) !important;
 }
 
@@ -137,5 +124,19 @@ h3 {
   color: white !important;
   font-size: 18px !important;
   font-family: 'Verdana' !important;
+}
+
+.bonilla {
+  text-align: center;
+  color: rgb(156, 233, 156) !important;
+  font-size: 21px !important;
+  font-family: 'Georgia' !important;
+}
+
+.bartolo {
+  text-align: left;
+  color: rgb(236, 166, 177) !important;
+  font-size: 21px !important;
+  font-family: 'Tacoma' !important;
 }
 
