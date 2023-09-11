@@ -1,16 +1,39 @@
 html {
-  background-image: linear-gradient(to bottom right, #002D72, #FF5910);
+  /* background-image: linear-gradient(to bottom right, #002D72, #FF5910); */
   background-attachment: fixed; /*edit*/
+  background-color: peachpuff;
+}
+
+body {
+  color: black;
+  /* background-image: url("/assets/img/baseballs.jpg"); */
+  /* background-attachment: fixed; */
+  /* background-repeat: repeat; */
+  background-size: 1000px;
+  /* width: 300px;
+  height: 300px; */
+
+
 }
 
 h1 {
-  color: #ffffff;
+  color: white;
   font-family: 'Tahoma';
-  font-size: 36px;
+  font-size: 55px;
+  background-color: #FF5910;
+}
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+.animate-flicker {
+    animation: fadeIn 1s infinite alternate;
 }
 
 .flex-container {
   display: flex;
+  align-items:center;
 }
 
 .mets-logo {
@@ -26,8 +49,93 @@ h1 {
   }
 }
 
+.fade_rule {
+  height: 10px;
+  background-color: #E6E6E6;
+  width: 40.0em;
+  margin: 0 auto;
+  /* background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+  background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+  background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+  background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+  background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%); */
+  background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.25, #002D72), color-stop(0.75, #FF5910), color-stop(0.98, white) );
+}
+
+
 .intro {
   color: #ffffff;
+  background-color: #002D72;
   font-size: 18px;
   font-family: 'Verdana';
 }
+
+.column {
+  float: left;
+  width: 50%;
+  margin-right:0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+iframe {
+  margin-left: 30px;
+}
+
+.button-row {
+  align-items: center;
+}
+
+button {
+  border: none;
+  padding: 10px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform:uppercase;
+}
+
+.tickets-button {
+  background-color: #FF5910;
+  color:#002D72;
+  font-weight:600;
+  border: 5px solid lime;
+}
+
+.stats-button {
+  background-color: #002D72;
+  color: #FF5910;
+  font-weight:600;
+  border: 5px solid lime;
+}
+
+.schedule-button {
+  background-color: #FF5910;
+  color:#002D72;
+  font-weight:600;
+  border: 5px solid lime;
+}
+
+h3 {
+
+  font-family: 'Tahoma';
+  font-size: 25px;
+
+}
+
+.worst-seasons{
+  margin-top:20px;
+  /* background-color: rgb(39, 39, 39); */
+  color: black;
+  font-size: 18px;
+  font-family: 'Verdana';
+}
+
