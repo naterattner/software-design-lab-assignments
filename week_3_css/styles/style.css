@@ -1,0 +1,59 @@
+body {
+  font-family: 'Inter';
+  /* width: 80%; */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:40px;
+}
+
+.card-header {
+  font-size: 24px;
+}
+
+.card {
+  border: 1px solid rgb(191, 188, 188);
+  width: 200px;
+  height: 200px;
+  min-width:100px;
+  border-radius: 5%;
+  padding: 25px;
+}
+
+.card-text-container {
+  margin-top: 40px;
+}
+
+.card p {
+  font-size: 17px;
+  font-weight: 300;
+  margin:0;
+}
+
+.card-2 {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.card-3 h3 {
+  background-color: #e5cbcb;
+  box-shadow: 2px 5px #ececec;
+  padding: 10px;
+}
+
+.card-4 {
+  border: 1px solid blue;
+}
+
+.card-4 h3 {
+  color: red;
+}
